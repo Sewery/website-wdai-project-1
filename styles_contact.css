@@ -14,11 +14,13 @@ body {
   flex-wrap: nowrap;
   padding: 0 1vw 0 1vw;
   max-height: 50%;
-  min-height: 500px;
+  heigh:50%;	
+  min-height: 450px;
   background-color: #fe6464;
   z-index: 1000;
   border-radius: 10px;
   box-shadow: 7px 7px 7px red;
+  
 }
 .form-wrapper {
   display: flex;
@@ -29,9 +31,10 @@ body {
   justify-items: center;
   align-items: center;
   width: 70%;
-  max-height: 100%;
+  max-height: 95%;
   border: dotted 1px;
-  padding: 2vw 0 2vw 0;
+  margin: 2vw 0 2vw 0;
+  padding: 2vw 2vw 2vw 2vw;
 }
 .form-wrapper h1 {
   font-family: "Cadillac";
